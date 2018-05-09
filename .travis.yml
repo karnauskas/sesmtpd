@@ -6,4 +6,5 @@ install: true
 
 script:
 - mkdir bin
+- go get -v ./...
 - GOOS=linux CGO=0 go build -o bin/sesmtpd.linux

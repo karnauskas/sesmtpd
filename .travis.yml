@@ -1,0 +1,9 @@
+language: go
+
+go: 1.10
+
+install: true
+
+script:
+- mkdir bin
+- GOOS=linux CGO=0 go build -o bin/sesmtpd.linux

@@ -1,6 +1,10 @@
+sendmail:
+	GOOS=linux go build -ldflags="-s -w" -o sendmail cmd/sendmail/main.go
 
-linux:
-	GOOS=linux CGO=0 go build -o sesmtpd.linux
+sesmtpd:
+	GOOS=linux CGO=0 go build -ldflags="-s -w" -o sesmtpd cmd/sesmtpd/main.go
 
-mac:
-	GOOS=darwin CGO=0 go build -o sesmtpd.osx
+clean:
+	rm -f sendmail sesmtpd
+	go clean
+	go mod tidy

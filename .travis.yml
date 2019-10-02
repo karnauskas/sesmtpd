@@ -1,10 +1,10 @@
 language: go
 
-go: "1.10"
+go: "1.13.1"
 
 install: true
 
 script:
-- mkdir bin
 - go get -v ./...
-- GOOS=linux CGO=0 go build -o bin/sesmtpd.linux
+- make sesmtpd
+- make sendmail

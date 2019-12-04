@@ -3,6 +3,7 @@ sendmail:
 
 sesmtpd:
 	GOOS=linux CGO=0 go build -ldflags="-s -w" -o sesmtpd cmd/sesmtpd/main.go
+	upx sesmtpd
 
 clean:
 	rm -f sendmail sesmtpd

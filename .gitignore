@@ -2,3 +2,4 @@ play-*
 sesmtpd
 sesmtpd.*
 test/
+*.retry

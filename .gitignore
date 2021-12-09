@@ -3,3 +3,4 @@ sesmtpd
 sesmtpd.*
 test/
 *.retry
+dist/

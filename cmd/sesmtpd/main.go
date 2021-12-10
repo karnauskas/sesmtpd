@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ses"
 	"github.com/chrj/smtpd"
@@ -15,7 +16,7 @@ import (
 
 var (
 	bind   = flag.String("bind", "127.0.0.1:1025", "bind address")
-	region = flag.String("region", "eu-west-1", "aws region")
+	region = flag.String("region", endpoints.EuWest1RegionID, "aws region")
 )
 
 func main() {

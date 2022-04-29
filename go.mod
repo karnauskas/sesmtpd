@@ -3,7 +3,7 @@ module github.com/karnauskas/sesmtpd
 go 1.17
 
 require (
-	github.com/aws/aws-sdk-go v1.44.3
+	github.com/aws/aws-sdk-go v1.44.4
 	github.com/chrj/smtpd v0.3.1
 	github.com/sirupsen/logrus v1.8.1
 )

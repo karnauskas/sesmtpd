@@ -1059,6 +1059,9 @@ var awsPartition = partition{
 					Region: "eu-west-3",
 				}: endpoint{},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
 				endpointKey{
@@ -2927,6 +2930,15 @@ var awsPartition = partition{
 					Variant: dualStackVariant,
 				}: endpoint{
 					Hostname: "appmesh.eu-west-3.api.aws",
+				},
+				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
+					Region:  "il-central-1",
+					Variant: dualStackVariant,
+				}: endpoint{
+					Hostname: "appmesh.il-central-1.api.aws",
 				},
 				endpointKey{
 					Region: "me-south-1",
@@ -5700,6 +5712,9 @@ var awsPartition = partition{
 					Deprecated: boxedTrue,
 				},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-central-1",
 				}: endpoint{},
 				endpointKey{
@@ -6271,6 +6286,9 @@ var awsPartition = partition{
 					Region: "ap-northeast-2",
 				}: endpoint{},
 				endpointKey{
+					Region: "ap-northeast-3",
+				}: endpoint{},
+				endpointKey{
 					Region: "ap-south-1",
 				}: endpoint{},
 				endpointKey{
@@ -6337,6 +6355,9 @@ var awsPartition = partition{
 					Deprecated: boxedTrue,
 				},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
 				endpointKey{
@@ -6387,6 +6408,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "ap-northeast-2",
+				}: endpoint{},
+				endpointKey{
+					Region: "ap-northeast-3",
 				}: endpoint{},
 				endpointKey{
 					Region: "ap-south-1",
@@ -6454,6 +6478,9 @@ var awsPartition = partition{
 					},
 					Deprecated: boxedTrue,
 				},
+				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
 				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
@@ -7226,6 +7253,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "eu-west-3",
+				}: endpoint{},
+				endpointKey{
+					Region: "il-central-1",
 				}: endpoint{},
 				endpointKey{
 					Region: "me-south-1",
@@ -11033,6 +11063,9 @@ var awsPartition = partition{
 					Deprecated: boxedTrue,
 				},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
 				endpointKey{
@@ -12607,6 +12640,9 @@ var awsPartition = partition{
 					Deprecated: boxedTrue,
 				},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-central-1",
 				}: endpoint{},
 				endpointKey{
@@ -13503,6 +13539,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "eu-west-3",
+				}: endpoint{},
+				endpointKey{
+					Region: "il-central-1",
 				}: endpoint{},
 				endpointKey{
 					Region: "me-central-1",
@@ -17393,6 +17432,9 @@ var awsPartition = partition{
 					Region: "ap-southeast-2",
 				}: endpoint{},
 				endpointKey{
+					Region: "ap-southeast-3",
+				}: endpoint{},
+				endpointKey{
 					Region: "ca-central-1",
 				}: endpoint{},
 				endpointKey{
@@ -17449,6 +17491,9 @@ var awsPartition = partition{
 					},
 					Deprecated: boxedTrue,
 				},
+				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
 				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
@@ -17988,6 +18033,9 @@ var awsPartition = partition{
 					},
 					Deprecated: boxedTrue,
 				},
+				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
 				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
@@ -18589,6 +18637,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "eu-central-1",
+				}: endpoint{},
+				endpointKey{
+					Region: "il-central-1",
 				}: endpoint{},
 				endpointKey{
 					Region: "us-east-1",
@@ -21236,6 +21287,14 @@ var awsPartition = partition{
 					Hostname: "portal.sso.eu-west-3.amazonaws.com",
 					CredentialScope: credentialScope{
 						Region: "eu-west-3",
+					},
+				},
+				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{
+					Hostname: "portal.sso.il-central-1.amazonaws.com",
+					CredentialScope: credentialScope{
+						Region: "il-central-1",
 					},
 				},
 				endpointKey{
@@ -24672,6 +24731,9 @@ var awsPartition = partition{
 					Deprecated: boxedTrue,
 				},
 				endpointKey{
+					Region: "il-central-1",
+				}: endpoint{},
+				endpointKey{
 					Region: "me-south-1",
 				}: endpoint{},
 				endpointKey{
@@ -26116,6 +26178,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "eu-west-3",
+				}: endpoint{},
+				endpointKey{
+					Region: "il-central-1",
 				}: endpoint{},
 				endpointKey{
 					Region: "me-central-1",
@@ -27729,6 +27794,9 @@ var awsPartition = partition{
 				}: endpoint{},
 				endpointKey{
 					Region: "eu-west-3",
+				}: endpoint{},
+				endpointKey{
+					Region: "il-central-1",
 				}: endpoint{},
 				endpointKey{
 					Region: "me-south-1",

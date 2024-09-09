@@ -25,6 +25,6 @@ jobs:
         with:
           go-version: '1.21'
       - run: go test ./cmd/...
-      - uses: securego/gosec@11d69032b0856c96afd4c493967ab7a30e20ff5e # master
+      - uses: securego/gosec@5f3194b581979e508b0ba1ee22f1f1f85a314e16 # master
         with:
           args: -quiet -no-fail cmd/...

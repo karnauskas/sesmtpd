@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/aws/aws-sdk-go v1.55.8
-	github.com/chrj/smtpd v0.4.0
+	github.com/chrj/smtpd v1.0.0
 	github.com/sirupsen/logrus v1.9.3
 )
 
